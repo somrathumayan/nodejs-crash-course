@@ -7,4 +7,7 @@ console.log(path.basename(__filename));
 
 // directory name
 
-console.log(path.dirname(__dirname));
+console.log(path.dirname(__filename));
+
+//extention of a file
+console.log(path.extname(__filename));

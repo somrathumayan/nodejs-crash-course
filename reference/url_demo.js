@@ -10,3 +10,12 @@ console.log(myUrl.host);
 
 //hostname
 console.log(myUrl.hostname);
+
+// pathname 
+console.log(myUrl.pathname);
+
+//serialize query
+console.log(myUrl.search);
+
+//params object
+console.log(myUrl.searchParams);

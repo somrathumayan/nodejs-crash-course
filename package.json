@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-crash-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somrathumayan/nodejs-crash-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somrathumayan/nodejs-crash-course/issues"
+  },
+  "homepage": "https://github.com/somrathumayan/nodejs-crash-course#readme",
+  "description": "",
+  "dependencies": {
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

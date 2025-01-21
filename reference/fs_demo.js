@@ -9,12 +9,18 @@ const path = require("path");
 // });
 
 // create file and write 
-fs.writeFile(path.join(__dirname, "/test", "Hello.txt"), "Hello Mr. Humayan", err => {
-    if(err) throw err;
-    console.log("File written...");
-});
+// fs.writeFile(path.join(__dirname, "/test", "Hello.txt"), "Hello Mr. Humayan", err => {
+//     if(err) throw err;
+//     console.log("File written...");
 
-fs.appendFile(path.join(__dirname, "/test", "Hello.txt"), " I love node js", err => {
+//     fs.appendFile(path.join(__dirname, "/test", "Hello.txt"), " I love node js", err => {
+//         if(err) throw err;
+//         console.log("File written...");
+//     });
+// });
+
+// Read File 
+fs.readFile(path.join(__dirname, "/test", "Hello.txt"), "utf8", (err, data) => {
     if(err) throw err;
-    console.log("File written...");
+    console.log(data);
 });

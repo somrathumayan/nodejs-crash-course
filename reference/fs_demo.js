@@ -13,3 +13,8 @@ fs.writeFile(path.join(__dirname, "/test", "Hello.txt"), "Hello Mr. Humayan", er
     if(err) throw err;
     console.log("File written...");
 });
+
+fs.appendFile(path.join(__dirname, "/test", "Hello.txt"), " I love node js", err => {
+    if(err) throw err;
+    console.log("File written...");
+});

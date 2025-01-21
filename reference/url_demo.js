@@ -19,3 +19,8 @@ console.log(myUrl.search);
 
 //params object
 console.log(myUrl.searchParams);
+
+// add param 
+
+myUrl.searchParams.append("abc", "123");
+console.log(myUrl.searchParams);

@@ -30,6 +30,17 @@ const server = http.createServer((req, res) => {
 
     }
 
+    if(req.url === '/api/users'){
+        const users = [
+            {name: "Md. Humayan Kabir", age: 28},
+            {name: "Mst. Rabeya Akhter", age: 25}
+        ];
+        
+            res.writeHead(200, {"Content-Type": "application/json"});
+            res.end(JSON.stringify(users));
+        
+
+    }
 
 });
 
